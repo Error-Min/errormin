@@ -1,5 +1,5 @@
 
-@media (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 480px) {
     h1,h2,h3,h4,p{
         padding: 0px;
         margin: 0px;
@@ -10,14 +10,16 @@
     }
 }
 
-@media (max-width: 500px) {
+
+
+@media (min-width: 320px) and (max-width: 480px) {
     .all_body{
-        width: 500px;
+        width: 480px;
         height: auto;
         margin: 0px auto;
     }
     .left_body{
-        width: 500px;
+        width: 480px;
         height: auto;
         margin: 0px 0px 0px 0px; 
         display: block;
@@ -25,7 +27,7 @@
     }
 
     .profile_box{
-        width: 500px;
+        width: 480px;
         height: 350px;
         background-color: #77919d;
         display: block;
@@ -102,9 +104,9 @@
 }
 
 
-@media (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .center_body{
-        width: 500px;
+        width: 480px;
         height: 200px;
         margin: 0px;
         display: block;
@@ -112,9 +114,9 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .right_body{
-        width: 500px;
+        width: 480px;
         height: 200px;
         margin: 0px 0px 0px 0px; 
         float: left;
