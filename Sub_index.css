@@ -15,6 +15,7 @@
         width: 500px;
         height: auto;
         margin: 0px auto;
+        background-color: #f5f5f5;
     }
     .left_body{
         width: 500px;
@@ -105,10 +106,111 @@
 @media (max-width: 700px) {
     .center_body{
         width: 500px;
-        height: 200px;
+        height: auto;
         margin: 0px;
         display: block;
-        background-color: #77919d;
+        background-color: white;;
+    }
+    
+    .title_box{
+        width: 100%;
+        height: 50px;
+        border-bottom: solid 1px #2d7788;
+        margin-bottom: 20px;
+        display: block;
+        position: static;
+    }
+
+    .title_box h2{
+        width: 155px;
+        height: 30px;
+        margin: 0 auto;
+        padding: 10px;
+        color: #2d7788;
+    }
+
+    .center_line{
+        width: 1px;
+        height: 700px;
+        border-left: solid 1px #2d7788;
+        margin: 0 auto;
+        display: none;
+    }
+
+    .Pins{
+        width: 12px;
+        height: 12px;
+        background-color: #2d7788;
+        border-radius: 100%;
+        display: none;
+    }
+    .mylife_class{
+        width: 90%;
+        height: auto;
+        background-color: white;
+        margin-bottom: 20px;
+        position: relative;
+        top: 0px;
+    }
+
+    .box_pin{
+        width: 12px;
+        height: 12px;
+        clip-path: polygon(0 0, 0 100%, 100% 50%);
+        background-color: #f5f5f5;
+        display: none;
+    }
+
+    .names{
+        width: 290px;
+        height: 30px;
+        text-align: left;
+        color: #2d7788;
+        display: block;
+    }
+    .text_box{
+        width: 100px;
+        height: auto;
+        display: block;
+    }
+
+    .text_box .h51{
+        width: auto;
+        color: darkgray;
+        display: block;
+    }
+
+    .h52{
+        width: auto;
+        color: darkgray;
+        float: left;
+        display: block;
+    }
+
+    .text_text_box{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    .text_text_box li{
+        font-size: 13px;
+        color: #545e6c ;
+    }
+
+    .p1{
+        width: auto;
+        float: left;
+    }
+
+    .jum{
+        width: 5px;
+        height: 5px;
+        background-color: black;
+        border-radius: 100%;
+        margin: 10px;
+        float: left;
+        display: none;
     }
 }
 
